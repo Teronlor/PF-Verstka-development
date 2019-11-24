@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding: 0 calc(50% - 570px);
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right >a.button {
+    background-color: #f16d7f;
+    background-size: initial;
+    padding-top: 13px;
+    padding-right: 29px;
+    padding-left: 19px;
+    padding-bottom: 11px
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+}
+
+.logo__img {
+    margin-right: 13px;
+}
+
+.header__cart {
+    margin-right: 26px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+.promo {
+    background-color: #e8e8e8;
+    height: 613px;
+}
+
+.promo__content {
+    background-image: url(img/Layer_24.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    display: flex;
+    align-items: center;
+}
+
+.promo__text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+    height: 92px;
+    width: 485px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.promo__text .brand {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo__text .fashion {
+    letter-spacing: 1px;
+    color: #f16d7f;
+    flex-wrap: nowrap;
+}
+
+.new__arrivals {
+    display: flex;
+    width: 1370px;
+    height: 823px;
+    margin-top: 116px;
+    align-items: center;
+    margin-left: 236px;
+    margin: 0 auto;
+    margin-top: 98px;
+    justify-content: center;
+
+}
+
+.new__arrivals>.left_arrivals {
+    padding-right: 20px;
+}
+
+.new__arrivals>.arrivals1>a.arrivals{
+    text-decoration:none;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.arrivals1 {
+    padding-bottom: 20px;
+}
+
+.hot_deal_for_men {
+    float: left;
+    justify-content: center;
+    position: absolute;
+    top: 904px;
+    background-color: #ffffff;
+    padding-left: 19px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+
+    .hot_deal {
+        color: #222222;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .for_men {
+        color: #f16d7f;
+        font-size: 30px;
+        letter-spacing: 0.75px;
+    }
+
+.arrivals2 {
+    float: right;
+    display: flex;
+    background-color: #dadad2;
+    width: 560px;
+    height: 261px;
+    justify-content: flex-end;
+}
+
+.luxirous_and_trendy_accesories {
+    background-color: #ffffff;
+    height: 82px;
+    width: 225px;
+    display: block;
+    /* не удалось выравнить элемент по левому краю без плавания */
+    position: absolute;
+    padding-top: 16px;
+    text-align: center;
+    top: 1465px
+}
+
+    .luxirous_and_trendy {
+        color: #222222;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .accesories {
+        color: #f16d7f;
+        font-size: 30px;
+        letter-spacing: 0.75px;
+    }
+
+.arrivals3 {
+    padding-bottom: 20px;
+}
+
+
+.new__arrivals>.arrivals3>a.arrivals{
+    text-decoration:none;
+    display: flex;
+    padding: 20px;
+}
+
+.discount_offer_women {
+    background-color: #ffffff;
+    height: 82px;
+    width: 162px;
+    display: block;
+    /* не удалось выравнить элемент по левому краю без плавания */
+    position: absolute;
+    padding-top: 16px;
+    text-align: center;
+    top: 888px;
+}
+
+    .discout_offer {
+        color: #222222;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .women {
+        color: #f16d7f;
+        font-size: 30px;
+        letter-spacing: 0.75px;
+    }
+
+.new__arrivals>.arrivals4>a.arrivals {
+    float: left;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.new_arrivals_for_kids {
+    background-color: #ffffff;
+    height: 82px;
+    width: 180px;
+    display: block;
+    /* не удалось выравнить элемент по левому краю без плавания */
+    position: absolute;
+    padding-top: 16px;
+    text-align: center;
+    top: 1186px;
+}
+
+    .new___arrivals {
+        color: #222222;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .for_kids {
+        color: #f16d7f;
+        font-size: 30px;
+        letter-spacing: 0.75px;
+    }
+
+
+.featured__items {
+    margin: 0 auto;
+    display: flex;
+    width: 1139px;
+    height: 982px;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+    .featured_items_discription {
+        width: 348px;
+        height: 51px;
+    }
+
+    .featured_items_discription>h2.discription1 {
+        color: #222222;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .featured_items_discription>p.discription_featured_items {
+        color: #9f9f9f;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .featured_items_firstrow {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: inherit;
+        align-items: center;
+        width: 1139px;
+        height: 376px;
+    }
+
+    .featured_mango {
+        width: 261px;
+        height: 364px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .featured_items_second_row {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: inherit;
+        width: 1139px;
+        height: 376px;
+
+    }
+
+    .mango_people_t-shirt> p.items_discription_mango {
+        color: #222222;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .mango_people_t-shirt> p.price_tag {
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .featured__items> a.button {
+        background-color: #f16d7f;
+        width: 170px;
+        height: 15px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.4px;
+        margin-top: auto;
+        padding-bottom: 19px;
+        padding-left: 24px;
+        padding-top: 18px;
+        padding-right: 24px;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .featured_mango:hover {
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+
+    .featured_add_to_cart {
+        background-color: #3a383885;
+        width: 261px;
+        height: 279px;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        float: left;
+    }
+
+    .featured_items:hover > .featured_add_to_cart {
+        display: block;
+    }  
+
+    .button .mango_add_to_cart {
+        width: 123px;
+        height: 39px;
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+    }
+
+        span.button.mango_add_to_cart {
+            width: 123px;
+            height: 39px;
+            display: inline-flex;
+            flex-wrap: nowrap;
+            border: 2px solid white;
+            justify-content: center;
+            position: absolute;
+            top: 40%;
+            left: 25%;
+        }
+
+            p.mango_add_to_card_p {
+                color: white;
+                font-size: 13px;
+                font-weight: 700;
+                align-self: center;
+            }
+
+    a.featured_items {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    p.items_discription_mango {
+        padding-left: 10px;
+    }
+
+    p.price_tag {
+        padding-left: 10px
+    }
