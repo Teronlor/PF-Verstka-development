@@ -23,6 +23,7 @@
   font-size: 14px
   font-weight: 300
   text-transform: uppercase
+  transition: all 1s
   &:hover
     color: $color-effect
     font-weight: 700
@@ -73,8 +74,9 @@
   cursor: pointer
 
 
-.browse__item > summary::after .drop
+.browse__item:focus .drop
   display: flex
+  transition: all 1s
 
 
 summary::after
@@ -105,6 +107,7 @@ a.product__setting__ref
   color: #6f6e6e
   font-size: 14px
   font-weight: 400
+  transition: color 0.5s ease-in
   &.product__setting__ref:hover
     color: $color-effect2
 
@@ -137,6 +140,7 @@ p.text2
 
 a.form__trending
   color: #6f6e6e
+  transition: color 1s
   &:hover
     color: $color-effect
 
@@ -172,12 +176,12 @@ fieldset
   text-transform: uppercase
 
 
-form input[type=checkbox i]
+form input[type=checkbox]
   border: 1px solid #ebebeb
   background-color: #ffffff
 
 
-input[type="range" i]
+input[type="range"]
   -webkit-appearance: slider-horizontal
   color: rgb(196, 196, 196)
   background-color: $color-effect
@@ -188,7 +192,7 @@ input[type="range" i]
   margin: 2px
 
 
-input[type="range" i]
+input[type="range"]
   -webkit-writing-mode: horizontal-tb !important
   text-rendering: auto
   color: initial
@@ -209,14 +213,6 @@ input[type="range" i]
   border-color: initial
   border-image: initial
   cursor: pointer
-
-
-p.range__fieldset
-  display: block
-  margin-block-start: 1em
-  margin-block-end: 1em
-  margin-inline-start: 0
-  margin-inline-end: 0
 
 
 .product__characteristics
@@ -276,6 +272,7 @@ a.pagination__link
   color: #c4c4c4
   font-size: 16px
   font-weight: bold
+  transition: color 0.5s linear
   &:hover
     color: $color-effect
 
@@ -290,6 +287,7 @@ a.pagination__link
   height: 44px
   text-align: center
   position: relative
+  transition: all 1s linear
   &:hover
     box-shadow: 0 0 10px #f48d8d
 
@@ -361,7 +359,6 @@ a.view__all__button
   outline: none
 
 
-
 .slide__left
   color: #ffffff
   font-size: 24px
@@ -374,6 +371,7 @@ a.view__all__button
   top: 365px
   left: 3px
   border: none
+  transition: color 0.5s linear
   &:hover
     color: $color-effect
 
@@ -390,5 +388,6 @@ a.view__all__button
   top: 365px
   right: 4px
   border: none
+  transition: color 0.5s linear
   &:hover
     color: $color-effect
